@@ -54,7 +54,14 @@
   }
   .content>div.pic
   {
-    background-image: url("pic.jpg");
+
+    img
+    {
+        width:100px ;
+        height:auto;
+    }
+    
+    
     /* align-content:center; */
     background-repeat: no-repeat;
     background-color: #002055;
@@ -70,6 +77,8 @@
       color: white;
       background-color:#002c74;
       background-image: radial-gradient(ellipse 50% 70% at 50% 0,#002c74 20%,#001536);
+      width: 100px;
+      height:auto;
       text-align: center;
       font-family: Arial, Helvetica, sans-serif;
       width:635px ;
